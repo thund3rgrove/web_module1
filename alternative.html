@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        
+        <div style="margin: 1%; color: aliceblue; width: 75vw;">
+            <section>
+                <h1>Мои контакты</h1>
+                <div class="flex__container">
+                    <div class="flex__element" title="Click on username to copy">
+                        <h3 class="flex__title">Discord</h3>
+                        <p style="cursor: pointer; color: dodgerblue; margin-top: 0" onclick="copy('@thund3rgrove')">@thund3rgrove</p>
+                    </div>
+        
+                    <div class="flex__element">
+                        <h3 class="flex__title">Steam</h3>
+                        <a style="color: dodgerblue; margin-top: 0" href="https://steamcommunity.com/id/thund3rgrove">@thund3rgrove</a>
+                    </div>
+        
+                    <div class="flex__element">
+                        <h3 class="flex__title">Telegram</h3>
+                        <a style="color: dodgerblue; margin-top: 0" href="https://t.me/thundergrove">@thund3rgrove</a>
+                    </div>
+                </div>
+            </section>
+        
+            <section>
+                <h1>Навыки и стек технологий</h1>
+                <div class="flex__container" style="color: dodgerblue">
+                    <!-- TODO: Add icons -->
+                    <div class="flex__element">
+                        <h3 class="flex__title">TypeScript</h3>
+                        <!-- <hr slyle="margin: 0; align-self: stretch"> -->
+                        <div class="flex__content">
+                            <p>Уровень: Middle</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex__element">
+                        <h3 class="flex__title">React</h3>
+                        <!-- <hr slyle="margin: 0; align-self: stretch"> -->
+                        <div class="flex__content">
+                            <p>Уровень: Upper-Junior</p>
+                        </div>
+                    </div>
+
+                    <div class="flex__element">
+                        <h3 class="flex__title">Java</h3>
+                        <p>Уровень: Junior</p>
+                    </div>
+
+                    <div class="flex__element">
+                        <h3 class="flex__title">C++</h3>
+                        <p>Уровень: Middle</p>
+                    </div>
+
+                    <div class="flex__element">
+                        <h3 class="flex__title">Python</h3>
+                        <!-- <hr slyle="margin: 0; align-self: stretch"> -->
+                        <div class="flex__content">
+                            <p>Уровень: Middle</b></p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="flex__element">
+                        <h3 class="flex__title">Python</h3>
+                        <div class="flex__content">
+                            <p>Python является довольно классным <u>ах*енным</u> языком программирования, но он <b>для яселек</b></p>
+                        </div>
+                    </div> -->
+                    
+                </div>
+            </section>
+        </div>
+
+
+    </main>
+    
+    <script>
+        function copy(text) {
+            navigator.clipboard.writeText(text)
+        }
+    </script>
+</body>
+</html>
